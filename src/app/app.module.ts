@@ -8,10 +8,14 @@ import { CourseComponent } from './course/course.component';
 import { CoursesService } from './courses.service';
 import { SummaryPipe } from './summary.pipe';
 import { FavoriteComponent } from './favorite/favorite.component';
+import { PanelComponent } from './panel/panel.component';
+import { LikeComponent } from './like/like.component';
+import { InputFormatDirective } from './input-format.directive';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent, CoursesComponent, CourseComponent,SummaryPipe, FavoriteComponent
+    AppComponent, CoursesComponent, CourseComponent,SummaryPipe, FavoriteComponent, PanelComponent, LikeComponent, InputFormatDirective, ContactFormComponent
   ],
   imports: [
     BrowserModule,FormsModule
